@@ -13,7 +13,6 @@ env:
   IMAGE_NAME: ${{ github.repository }}/backend
 
 # JOB 1 Lint & Análise Estática
-──
 jobs:
   lint-backend:
     name: Lint Backend Python
